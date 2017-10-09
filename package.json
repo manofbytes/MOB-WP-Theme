@@ -1,0 +1,15 @@
+{
+  "name": "manofbytes",
+  "nicename": "Man of bytes",
+  "version": "1.0.0",
+  "description": "Custom WordPress theme for manofbytes.com",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "jshint": "^2.9.5"
+  },
+  "author": "Andrei Brumusila",
+  "homepage": "https://manofbytes.com"
+}

@@ -1,0 +1,181 @@
+.single-title{
+	padding: 50px;
+	margin-bottom: 50px;
+	line-height: 50px;
+	background: $dark;
+	color: #fff;
+}
+
+.featured-img{
+	margin-bottom: 50px;
+}
+
+.article-body{
+	position: relative;
+	max-width: 654px;
+	margin: 0 auto 70px;
+
+	img{
+		max-width: 100%;
+		width: 100%;
+		height: auto;
+	}
+
+	p,
+	ul{
+		margin-bottom: 30px;
+		font-size: 18px;
+		line-height: 30px;
+	}
+
+	ul{
+		padding-left: 50px;
+	}
+
+	h2,
+	h3{
+		margin: 50px 0px 30px 0px;
+	}
+
+	h3{
+		font-size: 20px;
+	}
+}
+
+.embed-responsive {
+	position: relative;
+	display: block;
+	height: 0;
+	padding: 0;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+.embed-responsive-16by9 {
+	padding-bottom: 56.25%;
+}
+.embed-responsive .embed-responsive-item,
+.embed-responsive iframe,
+.embed-responsive embed,
+.embed-responsive object,
+.embed-responsive video{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+	border: 0;
+}
+
+.post-img-caption{
+	display: block;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 40px;
+	color: #b1bcbe;
+	text-align: center;
+}
+
+figure{
+	margin-bottom: 30px;
+}
+
+// Sidebar
+//
+.sidebar-newsletter{
+	margin-bottom: 50px;
+	padding: 30px;
+	background: $light;
+	text-align: center;
+
+	img{
+		max-width: 100%;
+		width: auto;
+		max-height: 260px;
+		margin-bottom: 30px;
+	}
+}
+
+.sidebar-help{
+	text-align: center;
+	padding: 60px 30px;
+	border: 1px solid #e1e1e1;
+
+	p{
+		font-size: 24px;
+		font-weight: bold;
+	}
+}
+
+.article-social{
+	position: absolute;
+	top: 0;
+	left: -70px;
+
+	ul{
+		padding: 0;
+		margin: 0;
+	}
+
+	li{
+		display: block;
+		margin-bottom: 10px;
+		list-style-type: none;
+
+		a{
+			display: block;
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			font-size: 16px;
+			text-align: center;
+			background: $dark;
+			color: #fff;
+
+			.icon{
+				line-height: 40px;
+			}
+
+			&:hover,
+			&:focus{
+				background: $accent;
+				color: #fff;
+			}
+		}
+	}
+}
+
+@media(max-width:1200px){
+	.sidebar-help{
+		display: none;
+	}
+}
+
+@media(max-width:992px){
+	.single-title{
+		padding: 30px;
+		font-size: 26px;
+		line-height: normal;
+	}	
+}
+
+@media(max-width:700px){
+	.article-social{
+		position: fixed;
+		top: auto;
+		right: 0;
+		bottom: 0;
+		left: 0;
+
+		li{
+			width: 33.3333%;
+			float: left;
+			margin: 0;
+
+			a{
+				width: 100%;
+				border-radius: 0;
+			}
+		}
+	}
+}

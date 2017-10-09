@@ -1,0 +1,6 @@
+api/
+node_modules/
+vendor/
+
+inc/analytics.php
+inc/fb-pixel.php

@@ -1,0 +1,28 @@
+/*
+Theme Name: Man of Bytes
+Author: Andrei Brumusila
+Author URI: http://manofbytes.com
+Version: 1.0.0
+*/
+
+// Override bootstrap default vars
+@import "mob-variables";
+
+// Bootstrap parts
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "bootstrap/normalize";
+@import "bootstrap/print";
+@import "bootstrap/reboot";
+@import "bootstrap/grid";
+
+// Custom parts
+@import "general";
+@import "icomoon";
+@import "navs";
+@import "front-page";
+@import "single";
+@import "blog-archive";
+@import "about";
+@import "case-studies-archive";
+@import "start-project";
